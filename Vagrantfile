@@ -12,6 +12,7 @@ Vagrant.configure("2") do |config|
       set -e
       apt-get update
       apt-get install -y python-pip
+      pip install pip --upgrade
       pip install ansible==2.4
       cd /vagrant/provision
       ansible-playbook -i hosts/local setup.yml
