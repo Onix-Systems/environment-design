@@ -1,0 +1,5 @@
+[production]
+prod.example.com ansible_connection=ssh ansible_ssh_user=ubuntu
+
+[default:children]
+production
