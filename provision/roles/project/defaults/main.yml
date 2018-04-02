@@ -1,5 +1,5 @@
 ---
   production: true
-  env: "DEFAULT"
+  project_environment: "DEFAULT"
   server_name: "production.example.com"
   project_folder: "/var/www/html"

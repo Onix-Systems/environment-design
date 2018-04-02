@@ -7,4 +7,5 @@
     - libapache2-mod-php
 
   apache2_modules:
+    - "env"
     - "rewrite"
