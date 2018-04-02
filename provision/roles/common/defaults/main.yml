@@ -1,0 +1,10 @@
+---
+  packages:
+    - htop
+    - mc
+    - apache2
+    - php
+    - libapache2-mod-php
+
+  apache2_modules:
+    - "rewrite"

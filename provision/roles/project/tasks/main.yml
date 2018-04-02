@@ -1,0 +1,28 @@
+---
+  - name: "Copying project into project folder: {{ project_folder }}."
+    copy:
+      src: "../application/"
+      dest: "{{ project_folder }}"
+      owner: "{{ owner }}"
+      group: "{{ owner }}"
+
+  - name: "Generating apache2 site's config."
+    template:
+      src: "{{ item | basename }}.j2"
+      dest: "{{ item }}"
+      owner: "root"
+      group: "root"
+      mode: "0644"
+    with_items:
+      - "/etc/apache2/sites-enabled/000-default.conf"
+    notify: "Restart apache2"
+
+  - name: "Generating environment htaccess."
+    template:
+      src: "{{ item | basename }}.j2"
+      dest: "{{ item }}"
+      owner: "root"
+      group: "root"
+      mode: "0644"
+    with_items:
+      - "{{ project_folder }}/.htaccess"

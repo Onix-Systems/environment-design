@@ -1,0 +1,24 @@
+<VirtualHost *:80>
+    ServerName {{ server_name }}
+
+    ServerAdmin webmaster@localhost
+    DocumentRoot {{ project_folder }}
+
+    <Directory "{{ project_folder }}">
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow, deny
+        allow from all
+    </Directory>
+
+    # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+    # error, crit, alert, emerg.
+    #LogLevel info ssl:warn
+    {% if not production %}
+    LogLevel debug
+    {% endif %}
+
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+</VirtualHost>

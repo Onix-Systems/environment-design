@@ -1,0 +1,5 @@
+---
+  owner: "www-data"
+  apache_service: "apache2"
+  services:
+    - "{{ apache_service }}"

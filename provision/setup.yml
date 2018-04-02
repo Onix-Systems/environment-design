@@ -2,6 +2,11 @@
   - hosts: default
     gather_facts: yes
     become: true
-    tasks:
-      - debug:
-          msg: "Welcome to the demonstation of environment configuring."
+
+    pre_tasks:
+      - name: "*** Welcome to the demonstation of environment configuring. ***"
+        shell: /bin/true
+        changed_when: false
+
+    roles:
+      - project
