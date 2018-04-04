@@ -2,3 +2,4 @@
   - name: "Restart apache2"
     service:
       name: "{{ apache_service }}"
+      state: restarted

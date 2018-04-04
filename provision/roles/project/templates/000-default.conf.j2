@@ -7,6 +7,9 @@
     <Directory "{{ project_folder }}">
         Options Indexes FollowSymLinks MultiViews
         AllowOverride All
+        {% if not production %}
+        Require all granted
+        {% endif %}
     </Directory>
 
     {% if not production %}

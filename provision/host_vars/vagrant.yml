@@ -1,0 +1,4 @@
+---
+  production: false
+  project_environment: "vagrant"
+  project_folder: "/vagrant/application"

@@ -3,3 +3,4 @@
   project_environment: "DEFAULT"
   server_name: "production.example.com"
   project_folder: "/var/www/html"
+  php_error_script: "/pages/error.php"
