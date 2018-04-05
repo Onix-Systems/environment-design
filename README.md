@@ -39,15 +39,21 @@ To launch development environment use next command:
 $ vagrant up
 ```
 
-To provision virtual machine in production mode, use next command:
+After launching virtual machine **demo application** will be accessible by url:
+[http://localhost:8080](http://localhost:8080)
+
+To reconfigure virtual machine in production mode, use next command:
 ```
 $ x-production.setup.sh
 ```
 
-To provision virtual machine in development mode, use next command:
+To reconfigure virtual machine in development mode, use next command:
 ```
 $ x-vagrant.setup.sh
 ```
+
+**PS:** These additional command ^^^ can be executed only from Linux terminal.
+For Windows machines read script content and try execute command through `vagrant`.
 
 ---
 
