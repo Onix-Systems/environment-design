@@ -3,6 +3,8 @@
 This is an example how can we combine development environment with future
 production.
 
+---
+
 #### Purpose
 
 Keep production environment very close with development.
