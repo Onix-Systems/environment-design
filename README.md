@@ -62,7 +62,7 @@ For Windows machines read script content and try execute command through `vagran
 ```
 .
 ├── application (application source code)
-├── provision - ansible-playbook with roles for provision target environment.
+├── provision (ansible-playbook with roles for provision target environment)
 ├── Vagrantfile
 ├── x-production.setup.sh
 └── x-vagrant.setup.sh
