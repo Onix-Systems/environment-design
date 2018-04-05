@@ -20,6 +20,10 @@ It is important to ensure about result on customer side.
 
 All above described tools can be deployed on different OS. Try find yours.
 
+PS: To setup production environment on prepared server, be sure, that it is
+provided server with OS `Ubuntu 16.04 xenial`. This OS distribution is used for development
+environment.
+
 ---
 
 #### Usage
@@ -41,6 +45,19 @@ $ x-production.setup.sh
 To provision virtual machine in development mode, use next command:
 ```
 $ x-vagrant.setup.sh
+```
+
+---
+
+#### Project structure
+
+```
+.
+├── application (application source code)
+├── provision - ansible-playbook with roles for provision target environment.
+├── Vagrantfile
+├── x-production.setup.sh
+└── x-vagrant.setup.sh
 ```
 
 ---
