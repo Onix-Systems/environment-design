@@ -1,6 +1,5 @@
 <?php
-    print "This script causes the error!"
-    b = 5
-    a = b + 1;
-    print a;
+    $a=5;
+    $b=$a+1
+    echo $b/0;
 ?>

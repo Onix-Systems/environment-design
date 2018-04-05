@@ -4,6 +4,7 @@
 ?>
 <h3>Testing environment settings...</h3>
 <ol>
-<li>Click <a href="./warning.php">here</a> to cause warning on server side.</li>
-<li>Click <a href="./error.php">here</a> to cause error on server side.</li>
+<li>Click <a href="./404.php">here</a> to cause <b>404</b> code.</li>
+<li>Click <a href="./error.php">here</a> to cause <b>error</b> on server side.</li>
+<li>Click <a href="./warning.php">here</a> to cause <b>warning</b> on server side.</li>
 </ol>
