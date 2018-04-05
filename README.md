@@ -1,7 +1,7 @@
-### Design application environment
+### Design application's environment
 
 This is an example how can we combine development environment with future
-production.
+production. Be sure that customer uses correct environment settings.
 
 ---
 
