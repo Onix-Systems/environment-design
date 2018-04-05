@@ -16,7 +16,7 @@ It is important to ensure about result on customer side.
 
 #### Requirements
 
-1. Orale VirtulBox [https://www.virtualbox.org](https://www.virtualbox.org)
+1. Oracle VirtulBox [https://www.virtualbox.org](https://www.virtualbox.org)
 1. Hashicorp Vagrant [https://www.vagrantup.com/](https://www.vagrantup.com/)
 1. Desire is the most important. :)
 
