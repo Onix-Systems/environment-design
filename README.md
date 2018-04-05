@@ -21,7 +21,7 @@ It is important to ensure about result on customer side.
 All above described tools can be deployed on different OS. Try find yours.
 
 PS: To setup production environment on prepared server, be sure, that it is
-provided server with OS `Ubuntu 16.04 xenial`. This OS distribution is used for development
+provided server with OS `Ubuntu 16.04 (xenial)`. This OS distribution is used for development
 environment.
 
 ---
