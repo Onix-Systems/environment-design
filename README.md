@@ -8,6 +8,8 @@ production.
 Keep production environment very close with development.
 It is important to ensure about result on customer side.
 
+---
+
 #### Requirements
 
 1. Orale VirtulBox [https://www.virtualbox.org](https://www.virtualbox.org)
@@ -15,6 +17,8 @@ It is important to ensure about result on customer side.
 1. Desire is the most important. :)
 
 All above described tools can be deployed on different OS. Try find yours.
+
+---
 
 #### Usage
 
@@ -37,6 +41,8 @@ To provision virtual machine in development mode, use next command:
 $ x-vagrant.setup.sh
 ```
 
+---
+
 #### Differences between development and production environment
 
 In development mode are next things:
@@ -47,6 +53,8 @@ In development mode are next things:
 In producition mode are next things:
 
 1. Errors are hide and when it is possible web server shows pretty message
-insted of standard server messages.
+instead of standard server messages.
 1. Source code is copied inside the environment to local folder. Is used for
 remote source delivering.
+
+---
