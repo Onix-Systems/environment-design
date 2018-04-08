@@ -1,6 +1,6 @@
 ### Design application's environment
 
-This is an example how can we combine development environment with future
+This is the example how can we combine development environment with future
 production.
 
 Be sure that customer uses correct environment settings.
