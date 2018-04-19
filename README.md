@@ -44,12 +44,12 @@ After launching virtual machine **demo application** will be accessible by url:
 
 To reconfigure virtual machine in production mode, use next command:
 ```
-$ x-production.setup.sh
+$ ./x-production.setup.sh
 ```
 
 To reconfigure virtual machine in development mode, use next command:
 ```
-$ x-vagrant.setup.sh
+$ ./x-vagrant.setup.sh
 ```
 
 **PS:** These additional command ^^^ can be executed only from Linux terminal.
